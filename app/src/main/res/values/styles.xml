@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="margin_activity">
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <style name="margin_card">
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginTop">@dimen/nav_header_vertical_spacing</item>
+    </style>
+
+    <style name="flat_button" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">@color/blue_800</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:textAlignment">center</item>
+
+    </style>
+
+    <style name="editText" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:textColor">@color/blue_500</item>
+        <item name="android:textColorHint">@color/blue_400</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="boxStrokeColor">@color/blue_900</item>
+    </style>
+
+    <style name="title" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:textColor">@color/blue_700</item>
+        <item name="android:textSize">24dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="text" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <style name="text.ViewCardId">
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:textColor">@color/blue_800</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">22dp</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="text.ViewCardTitle">
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textColor">@color/blue_500</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="text.ViewCardSubtitle">
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textColor">@color/blue_400</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+
+    <style name="dialog">
+        <item name="android:padding">60dp</item>
+    </style>
+
+    <style name="Widget.App.Snackbar" parent="Widget.MaterialComponents.Snackbar">
+        <item name="backgroundTint">@color/blue_400</item>
+        <item name="actionTextColorAlpha">1</item>
+    </style>
+
+    <style name="Widget.App.Snackbar.Alert" parent="Widget.MaterialComponents.Snackbar">
+        <item name="backgroundTint">@color/alert</item>
+        <item name="actionTextColorAlpha">1</item>
+    </style>
+
+    <style name="Widget.App.Snackbar.Error" parent="Widget.MaterialComponents.Snackbar">
+        <item name="backgroundTint">@color/error</item>
+        <item name="actionTextColorAlpha">1</item>
+    </style>
+
+    <style name="text.userDetails">
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:textColor">@color/blue_800</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">22dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="text.userDetails.email">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textColor">@color/blue_400</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+
+</resources>

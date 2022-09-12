@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Login (práctica)</string>
+    <string name="title_activity_home">Usuarios</string>
+
+    <!-- Drawer -->
+    <string name="navigation_drawer_open">Abrir navigation drawer</string>
+    <string name="navigation_drawer_close">Cerrar navigation drawer</string>
+
+    <string name="nav_header_desc">Menu</string>
+    <string name="action_settings">Configuración</string>
+
+    <!-- Home screen -->
+    <string name="menu_home">Usuarios</string>
+    <string name="title_users">Lista de usuarios</string>
+
+    <!-- Fragment login y register -->
+    <string name="title_fragment_login">Práctica de login</string>
+    <string name="title_login">Inicio de sesión</string>
+    <string name="title_register">Registrar usuario</string>
+    <string name="register_instruccions">Ingresa un correo y una contraseña para registar un nuevo usuario.</string>
+    <string name="input_email">Correo</string>
+    <string name="input_password">Contraseña</string>
+    <string name="input_rep_password">Confirmar contraseña</string>
+    <string name="btn_login">Iniciar sesión</string>
+    <string name="btn_register">Registrar usuario</string>
+    <string name="btn_go_register">Si aun no tienes cuenta, crea una</string>
+    <string name="btn_go_login">Ya posees una cuenta, regresa al inicio de sesión</string>
+
+    <string name="tab_text_1">Login</string>
+    <string name="tab_text_2">Registro</string>
+
+    <!-- User activity-->
+    <string name="title_activity_user">Detalles de usuario</string>
+
+    <!-- Extra -->
+    <string name="loading">Cargando...</string>
+
+</resources>
